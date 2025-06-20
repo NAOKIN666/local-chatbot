@@ -1,8 +1,2 @@
 flask
-transformers
-torch==2.5.1
 gunicorn
-protobuf
-tiktoken
-sentencepiece
-blobfile

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head><title>ローカルチャットボット</title></head>
+  <body>
+    <h1>ローカルチャットボット</h1>
+    <form method="post">
+      あなた：<input name="text" autofocus>
+      <input type="submit" value="送信">
+    </form>
+    {% if bot_reply %}
+    <p>ボット：{{ bot_reply }}</p>
+    {% endif %}
+  </body>
+</html>

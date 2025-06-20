@@ -1,6 +1,7 @@
-flask==3.1.1
-transformers==4.52.4
-torch==2.7.1
-gunicorn==23.0.0
-tiktoken==0.6.0
-protobuf==4.25.3
+flask
+transformers
+torch==2.0.1  # 例：GPU不要で比較的小さいものを指定
+gunicorn
+protobuf
+tiktoken
+sentencepiece  # rinna 系で必要になる場合があります

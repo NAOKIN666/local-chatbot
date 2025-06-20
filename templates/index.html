@@ -5,10 +5,10 @@
 </head>
 <body>
   <h1>ローカルチャットボット</h1>
-  <form method="POST">
-    あなた：<input type="text" name="text">
-    <input type="submit" value="送信">
-  </form>
+<form method="POST">
+  あなた：<input type="text" name="text" autocomplete="off">
+  <input type="submit" value="送信">
+</form>
 
   <p>ボット：{{ bot_reply }}</p>
 </body>

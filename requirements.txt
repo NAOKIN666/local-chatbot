@@ -1,6 +1,6 @@
 flask
-transformers==4.36.2
-torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+transformers
+torch==2.5.1
 gunicorn
 protobuf
 tiktoken

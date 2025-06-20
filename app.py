@@ -15,6 +15,10 @@ def chat():
             bot_reply = response[0]["generated_text"][len(user_input):].strip()
     return render_template("index.html", bot_reply=bot_reply)
 
+@app.route("/healthz")
+def healthz():
+    return "OK", 200
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
